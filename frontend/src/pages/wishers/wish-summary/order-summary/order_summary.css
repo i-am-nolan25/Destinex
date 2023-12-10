@@ -1,0 +1,73 @@
+/* order_summary.css */
+
+.orderSummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.orderSummaryContainer {
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderSummarySubTitle {
+    padding-bottom: 2.5rem;
+}
+
+.orderSummarySubTitleText {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.itemsAndShippingCost,
+.totalBeforeTaxAndEstimatedTaxCollected,
+.orderTotal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.boldItems,
+.boldShippingCost,
+.boldTotalBeforeTax,
+.boldEstimatedTaxCollected,
+.boldOrderTotalText {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #545454;
+    margin-right: auto;
+}
+
+.itemsAndShippingCost,
+.totalBeforeTaxAndEstimatedTaxCollected,
+.orderTotal {
+    justify-content: space-between;
+}
+
+.items,
+.shippingCost,
+.totalBeforeTax,
+.estimatedTaxCollected,
+.orderTotalText {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #545454;
+}
+
+.lineBreakForItemsAndShippingCost,
+.lineBreakForTotalBeforeTaxAndEstimatedTaxCollected,
+.lineBreakForOrderSummary {
+    border: 0.1rem solid #E9E9E9;
+    width: 100%;
+    margin-right: auto;
+}

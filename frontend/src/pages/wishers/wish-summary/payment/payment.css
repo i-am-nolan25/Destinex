@@ -1,0 +1,31 @@
+/* payment.css */
+
+.submitButtonForPayment {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    gap: 5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 6rem;
+}
+
+.submitBtn {
+    width: 30%;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.submitBtn:hover {
+    background-color: #7000CD;
+}

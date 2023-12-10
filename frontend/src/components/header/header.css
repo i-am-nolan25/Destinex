@@ -1,0 +1,306 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #8B00FF;
+}
+
+.header-no-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.left-sided {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-grow: 1;
+}
+
+.icon-menu {
+    font-size: large;
+}
+
+.icon-menu-no-bg {
+    font-size: large;
+    color: black;
+}
+
+.icon-menu,
+.logo,
+.location,
+.location-no-bg,
+.icon-bell,
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.logo-no-bg {
+    display: flex;
+    align-items: center;
+}
+
+.role-option-wish {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.role-option-grant {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.role-option-wish button{
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    flex: none;
+    cursor: pointer;
+}
+
+.role-option-wish-no-bg button{
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    flex: none;
+    cursor: pointer;
+}
+
+.role-option-grant button{
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    flex: none;
+    cursor: pointer;
+}
+
+.role-option-grant-no-bg button{
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    flex: none;
+    cursor: pointer;
+}
+
+.link-to {
+    text-decoration: none;
+}
+
+.logo-destinex {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-destinex-no-bg {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B00FF;
+    text-decoration: none;
+}
+
+.role-option-wish .btn-wish {
+    background-color: #ffffff;
+    color: #8B00FF;
+}
+
+.role-option-wish .btn-grant {
+    background-color: #8B00FF;
+    color: white;
+}
+
+.role-option-grant .btn-wish {
+    background-color: #8B00FF;
+    color: white;
+}
+
+.role-option-grant .btn-grant {
+    background-color: #ffffff;
+    color: #8B00FF;
+}
+
+.role-option-wish-no-bg .btn-wish {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.role-option-wish-no-bg .btn-grant {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.role-option-grant-no-bg .btn-wish {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.role-option-grant-no-bg .btn-grant {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.location {
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.location-no-bg {
+    gap: 1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.user-profile {
+    gap: 1rem;
+}
+
+.user-avatar {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: end;
+}
+
+.user-avatar img {
+    width: 50%;
+}
+
+.username {
+    font-size: large;
+}
+
+.username-no-bg {
+    font-size: large;
+    color: #000000;
+}
+
+.divider {
+    height: 30px;
+    width: 4px;
+    background: #ffffff;
+    margin: 0 1rem;
+}
+
+.divider-no-bg {
+    height: 30px;
+    width: 4px;
+    background: #000000;
+    margin: 0 1rem;
+
+}
+
+.right-sided {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.username {
+    margin-right: 0.5rem;
+}
+
+.sign-in,
+.sign-up {
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    flex: none;
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: #ffffff;
+    color: #8B00FF;
+}
+
+.sign-up {
+    background-color: #8B00FF;
+    color: white;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    display: none;
+}
+
+.user-browse {
+    cursor: pointer;
+}
+
+.user-browse-no-bg {
+    cursor: pointer;
+    color: #000000;
+}
+
+.user-browse:hover .dropdown-menu {
+    display: block;
+    margin-right: 2rem;
+}
+
+
+.user-browse-no-bg:hover .dropdown-menu {
+    display: block;
+    margin-right: 2rem;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1000; /* to ensure it appears above other elements */
+}
+
+.dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: left;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-menu button:hover {
+    background-color: #e2e2e2;
+}
+
+/* Optional: Add a little arrow above the dropdown */
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}

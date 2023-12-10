@@ -1,0 +1,144 @@
+/* signup_form.css */
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.signupFormTitle {
+    margin-bottom: 3rem;
+}
+
+.signupFormTitleText, .signupFormTitleDestinex {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.signupFormTitleDestinex {
+    color: #8B00FF;
+}
+
+.signupFormInput {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.postalCode, .contactNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+.postalCodeText, .contactNumberText {
+    display: block;
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input[type='text'] { 
+    padding: 0.8rem;
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type='tel'] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #545454;
+}
+
+.phoneInputContainer {
+    display: flex;
+    width: 100%;
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.PhoneInput {
+    display: flex;
+    width: 100%;
+}
+
+.PhoneInputInput {
+    width: 100%; 
+    border: none;
+}
+
+.PhoneInputCountry {
+    background-color: #E9E9E9;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.PhoneInputCountrySelect {
+    border-right: 0.15rem solid #B5B5B5;
+}
+
+.PhoneInputCountrySelectArrow {
+    font-size: 1.5rem;
+    color: #545454;
+    margin-left: 1rem;
+}
+
+.automatedSMSText, .stopSMSText {
+    font-size: 1rem;
+    color: #545454;
+    text-align: left;
+}
+
+.agreement {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    font-size: 1rem;
+    color: #545454;
+    margin-top: 0.5rem;
+}
+
+.input[type='checkbox'] {
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    align-self: center;
+    transform: scale(2);
+    margin-right: 0.75rem;
+}
+
+.signupButton {
+    display: flex;
+    justify-content: center;
+}
+
+.signupButtonText {
+    width: 100%;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.signupButtonText:hover {
+    background-color: #7000CD;
+}
+
+
+/* Add media queries for responsive design if needed */

@@ -1,0 +1,108 @@
+/* signin_form.css */
+
+.signinForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.signinFormTitle {
+    margin-bottom: 3rem;
+}
+
+.signinFormTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.signinFormTitleDestinex {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B00FF;
+}
+
+.signinFormInput {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.email, .password {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.emailText, .passwordText {
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input[type='email'],
+input[type='password'] {
+    padding: 0.8rem;
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.forgotPassword {
+    display: flex;
+    width: 100%; 
+    margin-top: 0.5rem; 
+}
+
+.forgotPasswordText {
+    color: #8B00FF;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signinButton {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.signinButtonText {
+    width: 100%;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.signinButtonText:hover {
+    background-color: #7000CD;
+}
+
+.createAccount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.createAccountSignup {
+    color: #8B00FF;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+}
+
+/* Add media queries for responsive design if needed */

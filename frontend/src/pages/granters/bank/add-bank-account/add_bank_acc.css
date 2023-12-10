@@ -1,0 +1,122 @@
+/* add_bank_acc.css */
+
+.bankPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.personalDetails,
+.bankInfo {
+    margin: 2rem;
+}
+
+.addBankAccountTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.personalDetailsTitle,
+.bankInfoTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.personalDetailsForm {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.bankInfoForm {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.nameContainer,
+.bankNameAndAccountTypeContainer,
+.accountNumberContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.nameContainer > div,
+.bankNameAndAccountTypeContainer > div,
+.accountNumberContainer > div {
+    flex: 1;
+}
+
+.routingNumberContainer {
+    margin-bottom: 4rem;
+}
+
+.firstName, .lastName, .contactNumber, .bankName, .accountType, .accountNumber, .confirmAccountNumber, .routingNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.firstNameText,
+.lastNameText,
+.contactNumberText,
+.bankNameText,
+.accountTypeText,
+.accountNumberText,
+.confirmAccountNumberText,
+.routingNumberText {
+    display: block;
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.linkStyle {
+    color: #8B00FF;
+    text-decoration: none;
+}
+
+.linkStyle:hover {
+    text-decoration: underline;
+}
+
+
+/* Add more styles for other elements as needed */
+/* payment.css */
+
+.submitGranterButton {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    gap: 5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 3rem;
+}
+
+.submitGranterBtn {
+    width: 30%;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.submitGranterBtn:hover {
+    background-color: #7000CD;
+}

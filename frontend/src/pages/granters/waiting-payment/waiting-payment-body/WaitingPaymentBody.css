@@ -1,0 +1,74 @@
+.waitingPaymentBody {
+    background-color: #8B00FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.waitingPaymentIcon {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.hourglassIcon {
+    width: 90%;
+}
+
+.waitingPaymentTitle {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.waitingPaymentTitleText {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.waitingPaymentTextBox {
+    padding-bottom: 3rem;
+}
+
+.waitingPaymentText {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.circle {
+    color: white;
+}
+
+.homepageBtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    width: 30%;
+}
+
+.waitingToHome {
+    width: 100%;
+    color: #8B00FF;
+    background-color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.waitingToHome:hover {
+    background-color: lightgray;
+}

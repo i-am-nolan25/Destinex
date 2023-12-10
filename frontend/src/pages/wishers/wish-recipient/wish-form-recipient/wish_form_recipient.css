@@ -1,0 +1,207 @@
+/* wish_form_recipient.css */
+
+.wishFormForRecipient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.wishFormForRecipientTitle {
+    margin-bottom: 3rem;
+}
+
+.wishFormForRecipientTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.wishFormForRecipientTitleWish {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B00FF;
+}
+
+.wishFormForRecipientContainer {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.step2 {
+    padding-bottom: 0.5rem;
+}
+
+.step2Text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.wishFormForRecipientSubTitle {
+    padding-bottom: 2.5rem;
+}
+
+.wishFormForRecipientSubTitleText {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.recipientNameContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    gap: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.firstName, .lastName {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactAndEmailContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 32rem;
+    gap: 3.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.contactNumber, .emailAddress {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactNumberInputContainer {
+    display: flex;
+    width: 100%;
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.PhoneInput {
+    display: flex;
+    width: 100%;
+}
+
+.PhoneInputInput {
+    width: 100%;
+    border: none;
+}
+
+.PhoneInputCountry {
+    background-color: #E9E9E9;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.PhoneInputCountrySelect {
+    border-right: 0.15rem solid #B5B5B5;
+}
+
+.PhoneInputCountrySelectArrow {
+    font-size: 1.5rem;
+    color: #545454;
+    margin-left: 1rem;
+}
+
+.emailAddressText, .firstAddressText, .secondAddressText, .recipientCountryText, .recipientStateText, .recipientCityText, .recipientZipCodeText {
+    display: block;
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.firstAddress {
+    display: flex;
+    width: 100%;
+    max-width: 32rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.secondAddress {
+    display: flex;
+    width: 100%;
+    max-width: 32rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+.recipientCountry, .recipientState {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.cityAndZipCode {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    gap: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+.recipientCity, .recipientZipCode {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.backAndNextButtons {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    gap: 5rem;
+    padding-top: 1.25rem;
+}
+
+.backButton {
+    width: 100%;
+    color: #8B00FF;
+    border: 0.15rem solid #8B00FF;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.backButton:hover {
+    color: white;
+    background-color: #8B00FF;
+}
+
+.nextButton {
+    width: 100%;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nextButton:hover {
+    background-color: #7000CD;
+}

@@ -1,0 +1,121 @@
+/* granter_updates.css */
+
+.granterUpdates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.granterUpdatesTitle {
+    padding-bottom: 2.5rem;
+}
+
+.granterUpdatesTitleView, .granterUpdatesTitleWishes, .granterUpdatesTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.granterUpdatesTitleWishes {
+    color: #8B00FF;
+}
+
+.wishBoxContainer {
+    width: 100%;
+    width: 60rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+}
+
+.wishBoxContainerLeft {
+    width: 45rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.viewImageContainer {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.generalWishInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.generalWishInformationTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #545454;
+}
+
+.guaranteedAmountContainer, .estimatedMilesContainer, .estimatedTimeToBeDeliveredContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.guaranteedAmount, .estimatedMiles, .estimatedTimeToBeDelivered {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #545454;
+}
+
+.wishBoxContainerRight {
+    width: 15rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 0.15rem solid #B5B5B5;
+}
+
+.wishBoxContainerRightUp {
+    width: 12rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.15rem solid #B5B5B5;
+    padding: 1.2rem;
+}
+
+.acceptButton, .declineButton {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.acceptButton {
+    color: #8B00FF;
+}
+
+.wishBoxContainerRightDown {
+    width: 12rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.declineButton {
+    color: #545454;
+}

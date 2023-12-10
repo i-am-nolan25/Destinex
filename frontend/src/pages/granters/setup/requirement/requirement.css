@@ -1,0 +1,39 @@
+/* requirement.css */
+
+.requirement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.requirementTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.requirementTitleGranter {
+    color: #8B00FF;
+}
+
+.requirementSubTitle {
+    margin-bottom: 2rem;
+}
+
+.requirementSubTitleText {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.requirementContent .requirementPic {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}

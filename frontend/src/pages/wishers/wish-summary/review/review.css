@@ -1,0 +1,93 @@
+/* review.css */
+
+.wishFormForSummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.wishFormForSummaryTitle {
+    margin-bottom: 3rem;
+}
+
+.wishFormForSummaryTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.wishFormForSummaryTitleWish {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B00FF;
+}
+
+.wishFormForSummaryContainer {
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.step4 {
+    padding-bottom: 0.5rem;
+}
+
+.step4Text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.wishFormForSummarySubTitle {
+    padding-bottom: 2.5rem;
+}
+
+.wishFormForSummarySubTitleText {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.reviewContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 60rem;
+    gap: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.reviewImage {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reviewItemsAndInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.boldName, .boldQuantity, .boldPriceRange, .boldArrivalDate, .boldRecipientName, .boldRecipientPhone, .boldRecipientEmail, .boldRecipientAddress {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #545454;
+}
+
+.name, .quantity, .priceRange, .arrivalDate, .recipientName, .recipientPhone, .recipientEmail, .recipientAddress {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #545454;
+}
+
+.lineBreakForReview {
+    border: 0.1rem solid #E9E9E9;
+    width: 60rem;
+}

@@ -1,0 +1,115 @@
+.wishGrantedBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wishGrantedTitle {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.wishGrantedTitleOne {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 0.7rem;
+}
+
+.wishGrantedTitleTwo {
+    color: #8B00FF;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wishGrantedTitleThree {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wishGrantedContent {
+    width: 70%;
+}
+
+.amountSpentBox {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.amountSpentTextBox {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.amountSpentText {
+    color: #000;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.proofBox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.proofTitle {
+    color: #000;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.proofDesc {
+    color: #545454;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.attachFile {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.submitButton {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 2rem;
+    width: 25%;
+    padding-bottom: 6rem;
+}
+
+.submitBtn {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.submit:hover {
+    background-color: #7000CD;
+}
+
+

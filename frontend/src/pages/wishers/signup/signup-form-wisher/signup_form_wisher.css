@@ -1,0 +1,135 @@
+/* signup_form.css */
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.signupFormTitle {
+    margin-bottom: 3rem;
+}
+
+.signupFormTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.signupFormTitleDestinex {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B00FF;
+}
+
+.signupFormInput {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.nameContainer {
+    display: flex;
+    gap: 5rem;
+}
+
+.firstName, .lastName, .email, .password {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.firstNameText, .lastNameText, .emailText, .passwordText {
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input[type='firstName'],
+input[type='lastName'],
+input[type='email'],
+input[type='password'] {
+    padding: 0.8rem;
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type='checkbox'] {
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transform: scale(2);
+    margin-right: 1.25rem;
+}
+
+.agreement {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.agreementText {
+    font-size: 1rem;
+    color: #545454;
+}
+
+.linkStyle {
+    text-decoration: underline;
+    color: #8B00FF;
+    cursor: pointer;
+}
+  
+.linkStyle:hover {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #7000CD;
+}
+
+.signupButton {
+    width: 100%;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.signupButton:hover {
+    background-color: #7000CD;
+}
+
+.alreadyHaveAccount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.alreadyHaveAccountText {
+    font-size: 1rem;
+    color: #545454;
+}
+
+.alreadyHaveAccountLogin {
+    color: #8B00FF;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.alreadyHaveAccountLogin:hover {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #7000CD;
+}
+
+/* Add media queries for responsive design if needed */

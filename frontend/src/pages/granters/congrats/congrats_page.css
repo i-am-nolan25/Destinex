@@ -1,0 +1,57 @@
+
+
+.congratsContentBody {
+    background-color: #8B00FF;
+}
+
+.congratsPicContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.congratsPic {
+    width: 50%;
+}
+
+.congratsMessageBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.congratsMessage {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.grantBtnBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 6.5rem;
+}
+
+
+.congratsToGrant {
+    width: 35%;
+    color: #8B00FF;
+    background-color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.congratsToGrant:hover {
+    background-color: lightgray;
+}
+

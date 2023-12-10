@@ -1,0 +1,77 @@
+/** wish_success.css **/
+
+.wishSuccessContainer {
+    display: flex;
+    background-color: #8B00FF;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.circledTickPic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.wishSuccessTitle, .wishSuccessMessage {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.wishSuccessMessage {
+    padding-bottom: 5rem;
+}
+
+.wishSuccessTitleText {
+    display: block;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.wishSuccessThankYouMessage, .wishSuccessConfirmationMessage {
+    display: block;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.wishSuccessButton {
+    width: 100%;
+    max-width: 32rem;
+    color: #8B00FF;
+    background-color: #FFFFFF;
+    border: 0.15rem solid #8B00FF;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wishSuccessButton:hover {
+    color: white;
+    background-color: #8B00FF;
+    border: 0.15rem solid #FFFFFF;
+}
+
+.wishTrackingButton {
+    width: 100%;
+    max-width: 32rem;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 0.15rem solid #FFFFFF;
+    margin-bottom: 1.5rem;
+}

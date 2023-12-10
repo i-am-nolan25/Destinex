@@ -1,0 +1,153 @@
+/* wish_form_product.css */
+
+.wishFormForProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.wishFormForProductTitle {
+    margin-bottom: 3rem;
+}
+
+.wishFormForProductTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.wishFormForProductTitleWish {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8B00FF;
+}
+
+.wishFormForProductContainer {
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.step1 {
+    padding-bottom: 0.5rem;
+}
+
+.step1Text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.wishFormForProductSubTitle {
+    padding-bottom: 2.5rem;
+}
+
+.wishFormForProductSubTitleText {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.productCategoryContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 32rem;
+    gap: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+.category, .subcategory {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.productNameContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 32rem;
+    padding-bottom: 2.5rem;
+}
+
+.product {
+    display: flex;
+    max-width: 32rem;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.budgetRange {
+    position: relative;
+    width: 100%;
+    max-width: 32rem;
+    padding-bottom: 0.75rem;
+}
+
+.sliderTrack {
+    padding-top: 3.5rem;
+}
+
+.MuiSlider-root {
+    color: #8B00FF !important;
+}
+
+.categoryText, .subcategoryText, .productText, .budgetRangeText {
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.budgetRangeDescription {
+    padding-bottom: 2.5rem;
+}
+
+.budgetRangeDescriptionText {
+    color: #B5B5B5;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.idealDateAndTimeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 32rem;
+    gap: 5rem;
+    padding-bottom: 3.5rem;
+}
+
+.idealDate, .idealTime {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input[type='date'], input[type='time'] {
+    border: 0.15rem solid #B5B5B5;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+.nextButton {
+    width: 100%;
+    max-width: 32rem !important;
+    background-color: #8B00FF;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nextButton:hover {
+    background-color: #7000CD;
+}
