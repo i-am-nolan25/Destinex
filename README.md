@@ -1,6 +1,6 @@
 # Team 08 CSCI205 Project: Destinex - The P2P Global Delivery Platform
 
-![Destinex](https://github.com/i-am-nolan25/Destinex/assets/113712250/021de80c-7fe2-44fc-9d95-5d5771f9a53b)
+![Destinex](https://github.com/i-am-nolan25/Destinex/assets/113712250/fa41ea78-c096-496c-b933-fd9fbd5f322b)
 
 ## Team Members and Roles
 
