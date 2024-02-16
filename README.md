@@ -1,5 +1,7 @@
 # Team 08 CSCI205 Project: Destinex - The P2P Global Delivery Platform
 
+![Destinex](https://github.com/i-am-nolan25/Destinex/assets/113712250/021de80c-7fe2-44fc-9d95-5d5771f9a53b)
+
 ## Team Members and Roles
 
 - **Professor:** Joshua Stough
